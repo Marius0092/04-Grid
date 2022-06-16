@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.calcolatrice {
+    max-width: 320px;
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 40px 40px 40px 40px;
+    position: absolute;
+    height: 20%;
+}
+
+.uguale {
+    grid-row: span 4;
+    background: rgb(241, 119, 119);
+    border: 1px solid gray;
+}
+
+.calc-numbers {
+    text-align: right;
+    width: 50%;
+    background: rgb(92, 88, 88);
+    color: white;
+    height: 30px;
+}
+
+.button {
+    border: 1px solid gray;
+    background: rgb(224, 212, 212);    
+}
+
+.addizione,.moltiplicazione,.sottrazione,.divisione {
+    border: 1px solid gray;
+    background: rgb(150, 169, 184);
+}
